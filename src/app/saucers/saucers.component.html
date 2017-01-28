@@ -1,0 +1,12 @@
+<p>
+  Platillos de: {{restaurant.name}}
+</p>
+  <a routerLink="/">Back</a>
+<ul>  
+  <li  class="card" *ngFor="let saucer of saucers">
+    <h3>{{saucer.name}}</h3>
+    <p>{{saucer.description}}</p>
+    <span> {{saucer.price}}</span>
+    <a routerLink="{{saucer.id}}/comments">View comments</a>
+  </li>
+</ul>

@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial,verdana;
+}
+
+
+.container{
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.card{
+    position: relative;
+    list-style: none;
+    width: 20%;
+    height: 200px;
+    border: solid 1px #ccc;
+    box-shadow: 5px 5px 5px #CCC;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.card p{
+    color: #333;
+}
+.card a{
+    right: 20px;
+    bottom: 10px;
+    position: absolute;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+}
+
+.comment{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #999;
+    margin-bottom: 10px;
+}
+
+.comment span{
+    display: block;
+    text-align: right;
+    color: #666;
+    font-style: italic;
+}
+
+input,textarea{
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 5px;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type=text]{
+    line-height: 24px;
+}
+
+button{
+    line-height: 24px;
+    background-color: #00415A;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 3px;
+}
+
+button:hover,
+button:focus{
+    background-color: #001F2B;
+}
